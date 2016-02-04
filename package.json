@@ -1,0 +1,21 @@
+{
+  "name": "murmur",
+  "version": "0.0.1",
+  "main": "app.js",
+  "description": "foOfys desktop chat server",
+  "repository": "git@github.com:resaca/murmur-server.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "cookie-parser": "~1.0.1",
+    "express": "^4.13.3",
+    "kerberos": "0.0.18",
+    "mongodb": "^2.1.4",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "socket.io": "latest"
+  }
+}
